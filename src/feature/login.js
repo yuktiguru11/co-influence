@@ -33,10 +33,6 @@ function Login(){
             <div>
         <form onSubmit={handleSubmit}>
             <div>
-            <label >username : </label>
-            <input type="text" onChange={(e)=>{setUsername(e.target.value)}}/>
-            </div>
-            <div>
             <label >Email : </label>
             <input type="mail" onChange={(e)=>{setMail(e.target.value)}}/>
             </div>
